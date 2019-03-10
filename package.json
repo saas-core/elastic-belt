@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/elasticsearch": "^5.0.31",
     "@types/lodash": "^4.14.122",
     "lodash": "^4.17.11"
   },
@@ -11,5 +12,8 @@
   "license": "MIT",
   "peerDependencies": {
     "lodash": "4.17.11"
+  },
+  "dependencies": {
+    "elasticsearch": "^15.4.1"
   }
 }
